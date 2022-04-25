@@ -1,0 +1,149 @@
+<html>
+<head>
+    <title>Real Time Image Identification App</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<body>
+    <br><br>
+
+    <h3>GOOGLE LENS V.S MOBILENET MODEL</h3>
+    <br><br>
+    <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+            <b>Water Bottle - </b>
+            <img src="WaterBottle.webp" class = "img-responsive">
+        </li>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS</b> - 
+            <span>Reusable bottle on a hand</span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>MOBILENET MODEL</b> - 
+            <span>Hair Spray</span>
+        </h5>
+
+        <div class="mini_result" class="col-xs-12">
+            <h4>Result - </h4>
+            <hr>
+            <h4>GOOGLE LENS is more accurate</h4>
+        </div>
+    </div>
+    <hr>
+
+    <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+            <b>Lamp - </b>
+            <img src="Lamp.jfif" class = "img-responsive">
+        </li>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS</b> - 
+            <span>Stick lamp white shade</span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>MOBILENET MODEL</b> - 
+            <span>Lampshade</span>
+        </h5>
+
+        <div class="mini_result" class="col-xs-12">
+            <h4>Result - </h4>
+            <hr>
+            <h4>Both GOOGLE LENS and MOBILENET models detected the lamp</h4>
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+            <b>Shoes - </b>
+            <img src="Shoes.webp" class = "img-responsive">
+        </li>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS</b> - 
+            <span> Adidas Superstar</span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>MOBILENET MODEL</b> - 
+            <span> Smoothing Iron</span>
+        </h5>
+
+        <div class="mini_result" class="col-xs-12">
+            <h4>Result - </h4>
+            <hr>
+            <h4>GOOGLE LENS is more accurate</h4>
+        </div>
+
+    </div>
+    <br><br><br><br><hr>
+
+    <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+            <b>Doll Bathtub - </b>
+            <img src="BathTub.jpg" class = "img-responsive">
+        </li>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS</b> - 
+            <span>White doll bathtub</span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>MOBILENET MODEL</b> - 
+            <span>Bathtub</span>
+        </h5>
+
+        <div class="mini_result" class="col-xs-12">
+            <h4>Result - </h4>
+            <hr>
+            <h4>Both GOOGLE LENS and MOBILENET models detected the bathtub</h4>
+        </div>
+
+    </div>
+    <br><br><br><br><hr>
+
+    <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+            <b>Bed - </b>
+            <img src="Bed.jfif" class = "img-responsive">
+        </li>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS</b> - 
+            <span>Bed</span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>MOBILENET MODEL</b> - 
+            <span>Four poster</span>
+        </h5>
+
+        <div class="mini_result" class="col-xs-12">
+            <h4>Result - </h4>
+            <hr>
+            <h4>GOOGLE LENS is more accurate</h4>
+        </div>
+
+    </div>
+    <div class="last_result col-xs-12"><b>Google Lens was more accurate because out of the five pictures I added it detected all of them correctly.
+         As for Mobilenet it didn't recognize the picture so well.</b></div>
+
+<div class="copy_right_footer">
+    Developed by - Whitehat JR team
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.copy_right_footer{
+
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+  }
+
+  .test_image_and_result{
+      background-color: goldenrod;
+      border-radius: 20px;
+      margin-bottom:30px;
+  }
+
+  img{
+      border-radius: 20px;
+      margin-bottom:10px;
+  }
+
+  .last_result{
+      background-color:darkseagreen;
+      border-radius:5px;
+      width:500px;
+      margin-left:500px;
+      margin-bottom: 10px;
+  }
